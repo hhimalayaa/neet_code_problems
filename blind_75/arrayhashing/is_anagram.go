@@ -16,5 +16,4 @@ func IsAnagram(s, t string) bool {
 	}
 
 	return reflect.DeepEqual(firstWord, secondWord)
-
 }
