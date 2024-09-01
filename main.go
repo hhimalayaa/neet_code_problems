@@ -15,7 +15,7 @@ func main() {
 
 	//isAnagram
 	firstString := "racecar"
-	secondString := "carraceeeee"
+	secondString := "carrace"
 	IsAnagram := arrayhashing.IsAnagram(firstString, secondString)
 	fmt.Println("result:", IsAnagram)
 
@@ -37,4 +37,8 @@ func main() {
 	decode := str.Decode(encodeString)
 	fmt.Println("result:", decode)
 
+	selfArray := []int{1, 2, 3, 4}
+
+	result := arrayhashing.ProductExceptSelf(selfArray)
+	fmt.Println("result:", result)
 }
